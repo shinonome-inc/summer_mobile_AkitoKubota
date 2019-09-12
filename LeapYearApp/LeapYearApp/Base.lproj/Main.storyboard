@@ -62,10 +62,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <keyCommands>
-                        <keyCommand/>
-                        <keyCommand/>
-                    </keyCommands>
                     <connections>
                         <outlet property="LeapLabel" destination="SEv-29-gDf" id="cTs-a0-eXs"/>
                         <outlet property="userInputTextField" destination="y5Y-uB-jYM" id="x05-FD-nOP"/>

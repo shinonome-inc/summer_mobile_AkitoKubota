@@ -21,8 +21,9 @@ class ViewController: UIViewController {
     
     @IBAction func decide(_ sender: Any) {
     
-        guard let Age = userInputTextField.text,
-            let num = Int(Age)else{
+        guard
+            let age = userInputTextField.text,
+            let num = Int(age)else{
                 LeapLabel.text = "表示できません"
                 return
         }
