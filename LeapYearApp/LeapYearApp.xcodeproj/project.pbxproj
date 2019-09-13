@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0835D49C232608150048DB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835D49B232608150048DB8A /* AppDelegate.swift */; };
+		0835D49E232608150048DB8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835D49D232608150048DB8A /* ViewController.swift */; };
+		0835D4A1232608150048DB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0835D49F232608150048DB8A /* Main.storyboard */; };
+		0835D4A3232608160048DB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0835D4A2232608160048DB8A /* Assets.xcassets */; };
+		0835D4A6232608160048DB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0835D4A4232608160048DB8A /* LaunchScreen.storyboard */; };
+		0835D4B1232608160048DB8A /* LeapYearAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835D4B0232608160048DB8A /* LeapYearAppTests.swift */; };
+		0835D4BC232608160048DB8A /* LeapYearAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835D4BB232608160048DB8A /* LeapYearAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0835D4AD232608160048DB8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0835D490232608150048DB8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0835D497232608150048DB8A;
+			remoteInfo = LeapYearApp;
+		};
+		0835D4B8232608160048DB8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0835D490232608150048DB8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0835D497232608150048DB8A;
+			remoteInfo = LeapYearApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0835D498232608150048DB8A /* LeapYearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapYearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0835D49B232608150048DB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0835D49D232608150048DB8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0835D4A0232608150048DB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0835D4A2232608160048DB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0835D4A5232608160048DB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0835D4A7232608160048DB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0835D4AC232608160048DB8A /* LeapYearAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0835D4B0232608160048DB8A /* LeapYearAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearAppTests.swift; sourceTree = "<group>"; };
+		0835D4B2232608160048DB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0835D4B7232608160048DB8A /* LeapYearAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0835D4BB232608160048DB8A /* LeapYearAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearAppUITests.swift; sourceTree = "<group>"; };
+		0835D4BD232608160048DB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0835D495232608150048DB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0835D4A9232608160048DB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0835D4B4232608160048DB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0835D48F232608150048DB8A = {
+			isa = PBXGroup;
+			children = (
+				0835D49A232608150048DB8A /* LeapYearApp */,
+				0835D4AF232608160048DB8A /* LeapYearAppTests */,
+				0835D4BA232608160048DB8A /* LeapYearAppUITests */,
+				0835D499232608150048DB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0835D499232608150048DB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0835D498232608150048DB8A /* LeapYearApp.app */,
+				0835D4AC232608160048DB8A /* LeapYearAppTests.xctest */,
+				0835D4B7232608160048DB8A /* LeapYearAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0835D49A232608150048DB8A /* LeapYearApp */ = {
+			isa = PBXGroup;
+			children = (
+				0835D49B232608150048DB8A /* AppDelegate.swift */,
+				0835D49D232608150048DB8A /* ViewController.swift */,
+				0835D49F232608150048DB8A /* Main.storyboard */,
+				0835D4A2232608160048DB8A /* Assets.xcassets */,
+				0835D4A4232608160048DB8A /* LaunchScreen.storyboard */,
+				0835D4A7232608160048DB8A /* Info.plist */,
+			);
+			path = LeapYearApp;
+			sourceTree = "<group>";
+		};
+		0835D4AF232608160048DB8A /* LeapYearAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0835D4B0232608160048DB8A /* LeapYearAppTests.swift */,
+				0835D4B2232608160048DB8A /* Info.plist */,
+			);
+			path = LeapYearAppTests;
+			sourceTree = "<group>";
+		};
+		0835D4BA232608160048DB8A /* LeapYearAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0835D4BB232608160048DB8A /* LeapYearAppUITests.swift */,
+				0835D4BD232608160048DB8A /* Info.plist */,
+			);
+			path = LeapYearAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0835D497232608150048DB8A /* LeapYearApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0835D4C0232608160048DB8A /* Build configuration list for PBXNativeTarget "LeapYearApp" */;
+			buildPhases = (
+				0835D494232608150048DB8A /* Sources */,
+				0835D495232608150048DB8A /* Frameworks */,
+				0835D496232608150048DB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapYearApp;
+			productName = LeapYearApp;
+			productReference = 0835D498232608150048DB8A /* LeapYearApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0835D4AB232608160048DB8A /* LeapYearAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0835D4C3232608160048DB8A /* Build configuration list for PBXNativeTarget "LeapYearAppTests" */;
+			buildPhases = (
+				0835D4A8232608160048DB8A /* Sources */,
+				0835D4A9232608160048DB8A /* Frameworks */,
+				0835D4AA232608160048DB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0835D4AE232608160048DB8A /* PBXTargetDependency */,
+			);
+			name = LeapYearAppTests;
+			productName = LeapYearAppTests;
+			productReference = 0835D4AC232608160048DB8A /* LeapYearAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0835D4B6232608160048DB8A /* LeapYearAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0835D4C6232608160048DB8A /* Build configuration list for PBXNativeTarget "LeapYearAppUITests" */;
+			buildPhases = (
+				0835D4B3232608160048DB8A /* Sources */,
+				0835D4B4232608160048DB8A /* Frameworks */,
+				0835D4B5232608160048DB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0835D4B9232608160048DB8A /* PBXTargetDependency */,
+			);
+			name = LeapYearAppUITests;
+			productName = LeapYearAppUITests;
+			productReference = 0835D4B7232608160048DB8A /* LeapYearAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0835D490232608150048DB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "窪田　彬人";
+				TargetAttributes = {
+					0835D497232608150048DB8A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0835D4AB232608160048DB8A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0835D497232608150048DB8A;
+					};
+					0835D4B6232608160048DB8A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0835D497232608150048DB8A;
+					};
+				};
+			};
+			buildConfigurationList = 0835D493232608150048DB8A /* Build configuration list for PBXProject "LeapYearApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0835D48F232608150048DB8A;
+			productRefGroup = 0835D499232608150048DB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0835D497232608150048DB8A /* LeapYearApp */,
+				0835D4AB232608160048DB8A /* LeapYearAppTests */,
+				0835D4B6232608160048DB8A /* LeapYearAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0835D496232608150048DB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0835D4A6232608160048DB8A /* LaunchScreen.storyboard in Resources */,
+				0835D4A3232608160048DB8A /* Assets.xcassets in Resources */,
+				0835D4A1232608150048DB8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0835D4AA232608160048DB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0835D4B5232608160048DB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0835D494232608150048DB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0835D49E232608150048DB8A /* ViewController.swift in Sources */,
+				0835D49C232608150048DB8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0835D4A8232608160048DB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0835D4B1232608160048DB8A /* LeapYearAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0835D4B3232608160048DB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0835D4BC232608160048DB8A /* LeapYearAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0835D4AE232608160048DB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0835D497232608150048DB8A /* LeapYearApp */;
+			targetProxy = 0835D4AD232608160048DB8A /* PBXContainerItemProxy */;
+		};
+		0835D4B9232608160048DB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0835D497232608150048DB8A /* LeapYearApp */;
+			targetProxy = 0835D4B8232608160048DB8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0835D49F232608150048DB8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0835D4A0232608150048DB8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0835D4A4232608160048DB8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0835D4A5232608160048DB8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0835D4BE232608160048DB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0835D4BF232608160048DB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0835D4C1232608160048DB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeapYearApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hogehoge.LeapYearApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0835D4C2232608160048DB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeapYearApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hogehoge.LeapYearApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0835D4C4232608160048DB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeapYearAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hogehoge.LeapYearAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeapYearApp.app/LeapYearApp";
+			};
+			name = Debug;
+		};
+		0835D4C5232608160048DB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeapYearAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hogehoge.LeapYearAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeapYearApp.app/LeapYearApp";
+			};
+			name = Release;
+		};
+		0835D4C7232608160048DB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeapYearAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hogehoge.LeapYearAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeapYearApp;
+			};
+			name = Debug;
+		};
+		0835D4C8232608160048DB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeapYearAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hogehoge.LeapYearAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeapYearApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0835D493232608150048DB8A /* Build configuration list for PBXProject "LeapYearApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0835D4BE232608160048DB8A /* Debug */,
+				0835D4BF232608160048DB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0835D4C0232608160048DB8A /* Build configuration list for PBXNativeTarget "LeapYearApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0835D4C1232608160048DB8A /* Debug */,
+				0835D4C2232608160048DB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0835D4C3232608160048DB8A /* Build configuration list for PBXNativeTarget "LeapYearAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0835D4C4232608160048DB8A /* Debug */,
+				0835D4C5232608160048DB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0835D4C6232608160048DB8A /* Build configuration list for PBXNativeTarget "LeapYearAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0835D4C7232608160048DB8A /* Debug */,
+				0835D4C8232608160048DB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0835D490232608150048DB8A /* Project object */;
+}
